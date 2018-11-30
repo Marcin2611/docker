@@ -2,4 +2,4 @@ FROM ubuntu:latest
 MAINTAINER "Marcin Golec"
 WORKDIR /code
 RUN apt-get update
-RUN apt-get install apache2
+RUN apt-get -y install apache2
